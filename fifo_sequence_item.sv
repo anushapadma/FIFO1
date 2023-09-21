@@ -39,7 +39,7 @@ class fifo_sequence_item extends uvm_sequence_item;
   //---------------------------------------
   //Constructor
   //---------------------------------------
-  function new(string name="fifo_seq_item");
+  function new(string name="fifo_sequence_item");
     super.new(name);
   endfunction
   
