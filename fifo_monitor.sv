@@ -1,7 +1,7 @@
 class fifo_monitor extends uvm_monitor;
   virtual fifo_interface vif;
-  fifo_seq_item item_got;
-  uvm_analysis_port#(fifo_seq_item) item_got_port;
+  fifo_sequence_item item_got;
+  uvm_analysis_port#(fifo_sequence_item) item_got_port;
   `uvm_component_utils(fifo_monitor)
   
   function new(string name = "fifo_monitor", uvm_component parent);
