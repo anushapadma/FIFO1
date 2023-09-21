@@ -1,5 +1,5 @@
 
-class fifo_seq_item extends uvm_sequence_item;
+class fifo_sequence_item extends uvm_sequence_item;
   
   //---------------------------------------
   //data and control fields
